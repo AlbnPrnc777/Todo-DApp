@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #9b88f0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo__list {
+  width: 90%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.todo__list .MuiSvgIcon-root {
+  color: #9b88f0;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.todo__list .MuiSvgIcon-root:hover {
+  transform: scale(1.2);
+}
+
+.add-task-button,
+.connect-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 20px auto;
+  display: block;
+  color: white;
+  background-color: #9b88f0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-task-button:hover,
+.connect-button:hover {
+  background-color: #8a76d8;
+  transform: scale(1.05);
+}
+
+form {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form .MuiTextField-root {
+  width: 100%;
+}
+
+form .add-task-button {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8rem;
+  color: #666;
+  background-color: #f5f5f5;
+}
