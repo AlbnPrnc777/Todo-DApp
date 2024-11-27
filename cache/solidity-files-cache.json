@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\alben\\Todo DApps\\contracts\\TaskContract.sol": {
+      "lastModificationDate": 1732685750987,
+      "contentHash": "c04dbf6839d6c89b177467989b237656",
+      "sourceName": "contracts/TaskContract.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.4"
+      ],
+      "artifacts": [
+        "TaskContract"
+      ]
+    }
+  }
+}
